@@ -1,0 +1,146 @@
+
+      #header {
+		margin: 1.0em 2.0em;
+		 line-height: 1.5;
+	  }	
+      
+	  #shpora {
+		padding: 1em 3em ;
+		 line-height: 1.5;
+	  }
+	  
+	  #shpora pre {
+        border: 1px solid #239;
+	  }
+	  
+	  button {
+		background-color: #ffe;
+		margin: 0.25em;
+		padding: 0.25em;
+		cursor: pointer;
+	  }
+	  
+      #work_zone {
+		display: block;
+		position: absolute;
+		top: 8.15em;
+		bottom: 0%;
+		right: 0%;
+		left: 0%;
+        border: 2px solid #239;
+		padding: 1%;
+		margin: 1.5em ;
+		background: #fff;
+		overflow-y: auto;
+	}
+	  
+      #work_zone .rbt {
+		display: inline-block;
+		width: 31%;
+		min-width: 20em;
+		height: 7em;
+		color: #125;
+        border: 2px solid #23b;
+		overflow-y: auto;
+		margin: 0.5em ;
+		padding: 0.1em;
+		padding-bottom: 0.6em ;
+		cursor: pointer;
+      }
+
+      #work_zone .rbt .name {
+		display: block;
+		padding: 0.5em;
+		padding-bottom: 0.1em;
+		font-size: 1.1em;
+      }
+
+	  #work_zone .rbt .adress {
+		display: block;
+		padding: 0.1em;
+		padding-left: 0.5em;
+		font-size: 0.9em;
+      }
+
+      #show_zone {
+		display: none;
+		position: absolute;
+		background-color: #f7f7fe;
+		top: 0%;
+		bottom: 0%;
+		right: 0%;
+		left: 0%;
+        border: 2px solid #239;
+		padding: 1%;
+		padding-top: 0;
+		margin: 1.5em ;
+		margin-top: 3em ;
+	}
+
+      #show_zone.show {
+		display: block;
+	  }
+      #show_zone #title {
+		display: block;
+		padding: 1em;
+		right: 4em;
+		left: 4em;	  
+		background-color: #f7f7fe;
+	  }
+
+      #show_zone .close {
+		display: block;
+		position: fixed;
+		right: 2.3em;
+		margin: 1.1em ;
+		cursor: pointer;
+	  }
+	  
+      #show_zone .one {
+		display: block;
+		padding: 1em;
+		margin: 1.1em ;
+        border: 1px solid #239;
+	  }
+
+      #show_zone #text_zone {
+		display: block;
+		position: absolute;
+        border-top: 2px solid #239;
+		top: 3em;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		padding: 1%;
+		overflow-y: auto;
+	  }
+
+      #show_zone  {
+		color: #127;
+	  }
+
+      #show_zone #title {
+		font-size: 1.2em;
+	  }
+
+      #show_zone .one .titl {
+		font-size: 0.85em;
+		font-style: italic;
+	  }
+      #show_zone .one .name{
+		font-size: 1.1em;
+	  }
+      #show_zone .one div {
+		margin: 0.5em;
+	  }
+
+	  .right {
+		display: none;
+		position: absolute;
+        border-top: 2px solid #239;
+		top: 80%;
+		bottom: 10%;
+		right: 10%;
+		left: 80%;		  
+		  
+	  }
